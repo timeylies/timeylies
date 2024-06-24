@@ -41,6 +41,25 @@ body {
   display: none;
 }
 
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: #222;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  box-shadow: 0 0px 25px 0 white;
+}
+
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
